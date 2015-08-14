@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <!--table tag is for creating a table in the page-->
+        <p>we have a new table</p>
+        <h2>Table one</h2>
+        <table border="1">
+            <tr>
+                <td>100</td>
+            </tr>
+        </table>
+        <h2>We have another table</h2>
+        <table border="1">
+            <tr>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+        </table>
+        <!--if we want a no boundary table we can set border=0
+            th tag for the table headline
+            caption is for the table caption-->
+        <h2>We have last table</h2>
+        <table border="0">
+            <caption>This is for a caption</caption>
+            <tr>
+                <th />
+                <th>num</th>
+                <th>num</th>
+                <th>num</th>
+            <tr>
+                <th>num</th>
+                <td>100</td>
+                <td>200</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <th>num</th>
+                <td>400</td>
+                <td>500</td>
+                <td>600</td>
+            </tr>
+        </table>
+        <h2>We have a unordered list</h2>
+        <!--tag ul is for unordered list and li is for the listed item
+            attribute style=list-style-type:xxx will specify the type of the unordered list
+            so ol is the ordered list and attribute start will specify the start number
+            attribute type will specify the sequence type like letters, numbers(default) and Roman number etc-->
+        <ul style="list-style-type:circle">
+            <li>coffee</li>
+            <li>milk</li>
+            <li>tea</li>
+        </ul>
+        <h2>we also have an ordered list</h2>
+        <ol type="A">
+            <li>coffee</li>
+            <li>milk</li>
+            <li>tea</li>
+        </ol>
+        <!--we can create nested list-->
+        <h2>we got an nested list</h2>
+        <ul>
+            <li>coffee</li>
+            <li>tea</li>
+            <ul>
+                <li>black tea</li>
+                <li>red tea</li>
+            </ul>
+            <li>milk</li>
+        </ul>
+        <!--we can also create a definition list by dl and the listed ones used by dd for content and dt for title-->
+        <h2>we got a definition list</h2>
+        <dl>
+            <dt>coffee</dt>
+            <dd>originally from aboard</dd>
+            <dt>milk</dt>
+            <dd>from local</dd>
+        </dl>
+    </body>
+</html>
