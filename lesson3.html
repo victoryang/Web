@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--The hyperlink can be set to a picture-->
+        <a href="http://www.baidu.com"><img src="test.png"></img></a>
+        <!--If set atrribute target to _blank then the hyperlink will be opened in a new tab-->
+        <a href="http://www.baidu.com" target="_blank">click here</a>
+        <!--The hyper link can direct to the specific position in the same page when using #id-->
+        <a href="#h18" target="_top">Click to jump out of the frame</a>
+        <br />
+        <!--img tag can add a image to page with width and height to set the size-->
+        <img src="test1.png" alt="gnome" width="100" height="50"></img>
+        <!--we can use attribute align to set the align-->
+        <p>we had a picture<img src="test1.png" align="top" width="30" height="20"></img>in top</p>
+        <p>we had a picture<img src="test1.png" align="middle" width="30" height="20"></img>in middle</p>
+        <p>we had a picture<img src="test1.png" align="bottom" width="30" height="20"></img>in bottom</p>
+        <!--we can create a link for a picture-->
+        <a href="http://www.baidu.com"><img src="test1.png" width="20" height="30" alt="test1"></img></a><br />
+        <!--we can use map and a tag to create link in a picture with attribute coords
+            if coords(x,y,z,w) means start point(x,y) with height z and width w and shape="rec"
+            if coords(x,y,z) means circle point(x,y) and radius z and shape="circle"-->
+        <img src="test1.png" width="60" height="100" usemap="#map1"></img>
+        <map name="map1">
+            <area shape="rect" coords="0,0,50,60" alt="rect" href="http://www.baidu.com"></area>
+        </map>
+        <h2>This is paragraph1<h2>
+        <h2>This is paragraph2<h2>
+        <h2>This is paragraph3<h2>
+        <h2 id="h4">This is paragraph4<h2>
+        <h2>This is paragraph5<h2>
+        <h2>This is paragraph7<h2>
+        <h2>This is paragraph8<h2>
+        <h2>This is paragraph9<h2>
+        <h2>This is paragraph10<h2>
+        <h2>This is paragraph11<h2>
+        <h2>This is paragraph12<h2>
+        <h2>This is paragraph13<h2>
+        <h2>This is paragraph14<h2>
+        <h2>This is paragraph15<h2>
+        <h2>This is paragraph16<h2>
+        <h2 id="h17">This is paragraph17<h2>
+
+        <!--iframe tag will add a frame to display the web page-->
+        <iframe id="h18"src="http://www.baidu.com"><p>Your browser not support iframe</p></iframe>
+    </body>
+<html>
