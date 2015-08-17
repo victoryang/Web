@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--Forms and input-->
+        <!--form tag is used to create forms and we can use type attribute to make sure that
+            what we can input: text or password etc.-->
+        <!--Text and password-->    
+        <form action="">
+            First line:<input type="text" name="firstline"></input>
+            <br />Second line:<input type="text" name="secondline"></input>
+        </form>
+        <form action="">
+            Username:<input type="text" name="username"></input><br />
+            Password:<input type="password" name="password"></input>
+        </form>
+        <!--checkbox-->
+        <form action="">
+            <input type="checkbox" name="tea name" value="black tea">I have a black tea</input><br>
+            <input type="checkbox" name="tea name" value="green tea">I have a red tea</input>
+        </form>
+        <!--radio button-->
+        <form action="">
+            <input type="radio" name="tea name" value="black tea">black tea</input><br>
+            <input type="radio" name="tea name" value="green tea">green tea</input>
+        </form>
+        <!--select list, default option is the first one if we want change this then we can set "selected" in that option-->
+        <form action="">
+            <select name="cars">
+                <option value="Volvo">Volvo</option>
+                <option value="Saab">Saab</option>
+                <option value="fiat" selected>Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+        </form>
+        <!--textarea tag to define a area that we can input some words in it-->
+        <textarea rows="10" cols="30">It is a text area.</textarea>
+        <!--when type is button, it will create a button-->
+        <form action="">
+            <input type="button" name="button1" value="button1"></input>
+        </form>
+        <!--we can use fieldset tag to create a field that is filled with other "form" or "input" widgets-->
+        <form action="">
+            <fieldset>
+                <legend>We have a fieldset</legend>
+                Name:<input type="text" name="name"></input><br>
+                password:<input type="password" name="password"></input>
+            </fieldset>
+        </form>
+    </body>
+</html>
