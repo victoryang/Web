@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'>
+        <!--css can be set as four kinds
+            1.web browser default value
+            2.external css script
+            3.internal style tag
+            4.inline style attribute
+            The value getting bigger, more priority it got-->
+        <style>
+            <!--Tag name, Id name and class name can be a selector to define a style-->
+            body{background-color:yellow;background-image:url('./test1.png');}
+            #hpara{color:red;}
+            .line2{border:2px solid green;width:250px;}
+            table{border-collapse:collapse;}
+            table,th,td{border:1px solid red}
+        </style>
+    </head>
+    <body>
+        <!--css: cascading style sheets-->
+        <!--color can set the text color-->
+        <h1 id="hpara">The CSS selector</h1>
+        <ul>
+            <!--the default font-size is 16px, and 1em equals to value of font-size -->
+            <li style="font-size:2em">we can define how to display the html elements</li>
+            <li style=“font:Serif;” class="line2">style will be stored in css files</li>
+            <li style="color:yellow;">to separate the content and view, as mvc model requests</li>
+            <li>improve the effiency</li>
+        </ul>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>sex</th>
+            </tr>
+            <tr>
+                <td>tyang</td>
+                <td>male</td>
+        </table>
+    </body>
+</html>
