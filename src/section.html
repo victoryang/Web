@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,use-scalable=no">
+    <title></title>
+    <style media="screen" type="text/css">
+      * {
+        border: 1px dashed red;
+      }
+      html,body {
+        margin: 0;
+        height: 100%;
+      }
+      .wrap {
+        height: 100%;
+      }
+      section {
+        height: 100%;
+      }
+      .cover {
+        background-image:url("/images/San_Antonio_Spurs-spurs.jpg");
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+      }
+      .cover header {
+        height: 50px;
+        color: red;
+        position: relative;
+        border-bottom: 1px solid #cecece;
+      }
+      .header_box {
+        width: 400px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        text-align: center;
+        border: 1px solid red;
+      }
+      h1.sub {
+        text-align: center;
+      }
+      ul {
+        text-align: center;
+        list-style: outside;
+        position: absolute;
+        bottom: 10%;
+        left: 0px;
+        right: 0px;
+        line-height: 1.5;
+      }
+      .platform li{
+        margin: 0 10px;
+        display: inline-block;
+        position: relative;
+        width: 120px;
+        background-color: rgba(255,255,255,0.1);
+        color: #cecece;
+        border: 1px solid #cecece;
+      }
+
+      .platform li a {
+        text-decoration: none;
+        display: inline-block;
+        width: 90%;
+      }
+
+      .wechat_img {
+        width:215px;
+      }
+
+      .apple_img {
+        width: 215px;
+      }
+      .android_img {
+        width: 215px;
+      }
+
+      .tooltip {
+        opacity: 0;
+        position:absolute;
+        bottom: calc(100% + 20px);
+        left: calc(50% - 125px);
+        padding: 20px;
+        background-color: #FFF;
+      }
+
+      strong {
+        line-height: 2;
+        font-size: 16px;
+      }
+
+      a:hover + .tooltip {
+        opacity: 1;
+        transform: translateY(10px) 0.4s;
+      }
+
+      .section1 {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="cover">
+        <header></header>
+        <div class="header_box">
+          <h1 class="sub">welcome to share</h1>
+        </div>
+        <ul class="platform">
+          <li class="wechat_btn">
+            <a class="wechat">WeChat</a>
+            <div class="tooltip">
+              <strong>wechat</strong>
+              <img class="wechat_img" src="http://cdn.ishareh5.com/official/5591561676349599855.jpg"/>
+            </div>
+          </li>
+          <li>
+            <a class="iphone">iPhone</a>
+            <div class="tooltip">
+              <strong>iPhone</strong>
+              <img class="apple_img" src="http://7vznnu.com2.z0.glb.qiniucdn.com/official/iphone-download.png"/>
+            </div>
+          </li>
+          <li>
+            <a class="android">Android</a>
+            <div class="tooltip">
+              <strong>Android</strong>
+              <img class="android_img" src="http://7vznnu.com2.z0.glb.qiniucdn.com/official/android-download.png"/>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="section1"></section>
+    </div>
+    <script type="text/javascript">
+      window.onload = function () {
+      }
+    </script>
+  </body>
+</html>
